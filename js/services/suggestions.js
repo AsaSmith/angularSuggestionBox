@@ -24,4 +24,4 @@ app.factory('suggestions', [function(){
     ]
   };
   return testData;
-}])
+}]);
