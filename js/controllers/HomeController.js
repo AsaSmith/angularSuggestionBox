@@ -1,4 +1,5 @@
-app.controller('HomeController', ['$scope', function($scope){
+app.controller('HomeController', ['$scope', 'suggestions', function($scope, suggestions){
   $scope.helloWorld = 'Hello Angular.JS!';
+  $scope.posts = suggestions.posts;
 
 }]);
