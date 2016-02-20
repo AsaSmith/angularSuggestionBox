@@ -4,7 +4,8 @@ app.factory('suggestions', [function(){
       {
         title: 'Get a dog',
         upvotes: 5,
-        comments: [],
+        comments: ["comment 1", "comment 2"
+        ],
       },
       {
         title: 'Get ice cream',
